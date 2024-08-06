@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html LANG="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <table> Aula01 </table>
+</head>
+<body bgcolor="silver" background="pp.jpg" text="" alink="red" vlink="green" link="silver">
+    <!-- background="pp.jpg" == imagem de funco-->
+    <!-- alink="red" == quando estamos clivanco no link-->
+    <!-- vlink="green"  == antes de clicar-->
+    <!-- link="silver" == depois de clicar-->
+    <a name="topo"></a>
+    <!-- os <h1></h1> e derivados, sao respectivamente tamanhos de títulos (são apresentado em negrito)-->
+    <h1 align="center">Exemplo 1 - Hyperlink</h1>
+    <a href="https://www.google.com" target="_blank" title="Site do Google">Clique aqui</a>
+    <!-- href="https://www.google.com" == dentro das aspas tem que estar o link pra onde gostaria de ir-->
+    <!-- target="_blank" == abrindo uma nova aba evitando sobreposiçoes de paginas-->
+    <!-- title="Site do Google" == balão para direciar- no caso ele fala o nome de pra onde você vai-->
+
+    <br/> <!-- <br/> == é teg de quebra de linha-->
+
+    <a href="cont.html" target="_top" title="Acessar Outro Conteúdo">Clique aqui /2/</a>
+    <!-- quando for uma página própria coloque == target="_top"-->
+
+    <h2 align="center">Exemplo 2 - imagens</h2>
+
+    <p align="center">
+    <img src="gato_botas.jpg" width="500" height="500" border="4" alt="Imagem do gato de botas"/>
+    <!-- src="gato_botas.jpg" == nome da imagem (a imagem deve ser salva na página que esta fazendo o site)-->
+    <!-- width="500" == largura-->
+    <!-- height="500" == altura-->
+    <!--border="4" == borda que contorna a foto-->
+    <!-- alt="Imagem do gato de botas" == legendas da foto-->
+    </p>
+
+    <br/><br/>
+
+    <a href="https://www.youtube.com" target="_blank" title="youtube">
+        <img src="minions.jpg" width="500" height="300" border="4" alt="Imagem do minion"/>
+    </a>
+    <!-- clique na imagem e abra um link-->
+
+    <br/><br/>
+
+    <a href="dogpool.jpg" target="_blank" title="dogpool">
+        <img src="dogpool.jpg" width="500" height="600" border="4" alt="Imagem do dogpool"/>
+    </a> 
+    <!-- clique na imagem e abra em uma outra página-->
+
+    <hr color="blue" size="5">
+    <!-- acrescenta um divisória na página-->
+
+    <figure>
+        <img src="ansiedade.jpg" width="600" height="400" border="4" alt="Imagem do ansiedade-divertidamente"/>
+        <figcaption>
+            Imagem retirada do google Imagens
+        </figcaption>
+    </figure>
+    <!-- <figcaption> == é uma legenda visível-->
+
+    <h3>Exemplo 3 - parágrafo</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum semper vestibulum. Duis sed enim vitae felis faucibus condimentum vel non lacus. 
+        Quisque eget elit dolor. Praesent commodo, dolor ac pulvinar luctus, ipsum tellus finibus mi, at placerat magna lectus et mauris. Maecenas porttitor quam 
+        non elit maximus gravida. Mauris facilisis facilisis neque, quis hendrerit lacus commodo at. Maecenas erat purus, bibendum vitae mauris nec, hendrerit 
+        sagittis lectus.
+    </p>
+
+    <p>Nunc nec arcu a odio cursus ultrices. Nunc et risus erat. Nulla augue nisl, feugiat id sagittis id, cursus non ante. Duis non nisl sit amet elit ornare maximus 
+        eget ac diam. Suspendisse ornare blandit posuere. Phasellus sagittis viverra nibh eu euismod. Etiam tincidunt molestie imperdiet. Quisque placerat lectus sit 
+        amet eleifend dignissim. Nunc ac sem in velit faucibus lobortis. Aliquam aliquet placerat nisi et iaculis. Nunc elementum iaculis mauris ac hendrerit.
+    </p>
+    <!-- <p> == é usado para fazer parágrafos-->
+
+    <p align="center"> texto centralizado</p>
+    <p align="left"> texto alinhado à esquerda</p>
+    <p align="right"> texto alinhado à direita</p>
+    <p align="justify"> texto justificado</p>
+
+
+    <h4>Exemplo 4 - Formatação de Texto</h4>
+
+    <strong> Texto em Negrito </strong>
+    <br/>
+    <i> Texto em Itálico 1</i>
+    <br/>
+    <em> Texto em itálico 2</em>
+    <br/>
+    <u> Texto Sublinhado</u>
+    <br/>
+    <s> Texto Tachado</s>
+    <br/>
+    <!-- Concatenar as tags de informação -->
+    <strong><em><u><s>Texto formatado Geral</s></u></em></strong>
+    <br/>
+    <!-- Formatando com teg front-->
+    <font color="blue" size="12" face="consolas, verdana, arial">
+        Texto formatado com teg front
+    </font>   
+    <!-- colocar mais de uma opção de letra (as letras são representadas por== face)-->
+    <!-- size="12" == o tamanho da letra-->
+    <br/>
+    <!-- Formatando texto em um parágrafo-->
+    <p>
+        <strong>Lorem</strong> ipsum dolor sit amet consectetur <front color="silver">adipisicing elit</front>. Veritatis ad quaerat vero eum itaque, <em>explicabo</em> , 
+        aut <front size="8">voluptatibus placeat</front> mollitia beatae <u>eligendi odit et ducimus deleniti</u> , maiores illum <s><em>suscipit maxime quibusdam</em></s>. 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <font color="green"><strong>Commodi quam perspiciatis provident,</strong></font>  ducimus odio totam laborum 
+        dolores eaque quas, <font size="10">reiciendis perferendis nostrum sint fuga laudantium iste. Aut in provident iste!</font>
+    </p>
+
+    <h5>Exemplo 5 - audio e video</h5>
+
+    <audio controls autoplay loop muted>
+        <source src="Never Slow Me Down - Everet Almond.mp3" type="audio/mp3">
+    </audio>
+    <!-- abrir tag audio, colocar (controls) caso a musica não saia-->
+    <!-- abrir tag source, adcionar o audio (lembrando que tudo deve ser salvo na mesma pasta), depois adcione o type, e coloque o tipo de audio que esta ultilizando-->
+    <!-- autoplay, é usado para cada vez que atualizarem a página a musica reiniciar-->
+    <!-- loop para a musica continuar assim que acabar-->
+    <!-- muted para a musica começar muda-->
+   
+    <!--https://studio.youtube.com/channel/UCfkMdkvt48526y_yPMVrsQg/music  == procurar audios usando essse link-->
+    <!-- https://www.pexels.com/pt-br/ == procurar videos usando esse link-->
+
+    <video controls width="300" height="300" autoplay loop muted>
+        <source src="17279613-uhd_1440_2560_30fps.mp4" type="video/mp4">
+    </video>
+
+    <h3>Exemplo extra - transição simples</h3>
+    <marquee width="500"> texto em transição</marquee>
+    <!-- marquee == para fazer uma frase em movimneto-->
+    <!-- width="500" == elimita o espaço de movimento-->
+    <br/>
+    <marquee width="500" direction="right"> texto em transição</marquee>
+    <!-- direction="rigth" == marca a direção desejada para a frase seguir-->
+    <br/>
+    <marquee behavior="scroll" width="500" hight="100" direction="left" > texto em transição</marquee>
+    <br/>
+    <marquee direction="right" scoolamout="60"> 
+        <img src="5eeea355389655.59822ff824b72.gif" width="400" height="300" alt="caminhando"/>
+    </marquee>
+    <!-- scoolamout="" == adcionar velocidade-->
+    <br>
+    <!-- teste feito por mim-->
+    <p align="center">
+        <img src="2016-07-27-ezgif.com-resize-2.gif"  alt="gif"/>
+    </p>
+    
+
+    <h6>Exemplo 6 - Volta ao topo</h6>
+    <a href="#topo">Voltar ao topo</a>
+    <!-- adicionar la no início a palavra topo == <a name="topo"></a>-->
+   
+</body>
+</html>
